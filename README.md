@@ -1,6 +1,8 @@
 # Semana Omnistack 7 Rocketseat - InstaRocket
 
-Nesse desafio você irá construir o back-end com NodeJS da API do Instagran, para isso foi utilizado o conteudo oferecido durante a semanda Omnistack-7 da Rocketseat. Para o banco de dados é utilizado o mongoDB, para ser mais específico um cluster do mongoDB Atlas.
+Nesse desafio você irá construir o back-end com NodeJS da API do Instagran, para isso foi utilizado o conteudo oferecido durante a semanda Omnistack-7 da Rocketseat. Para o banco de dados é utilizado o mongoDB, para ser mais específico um cluster do mongoDB Atlas. O projeto Front-End desenvolvido em react pode ser acessado nesse [link](https://github.com/deyvisonpenha/instaRocktWeb.git)
+
+A versão em produção esta [aqui](https://reverent-golick-595892.netlify.com/)
 
 ## Rotas
 
