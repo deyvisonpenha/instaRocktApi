@@ -7,7 +7,9 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-mongoose.connect('mongodb+srv://deyvisonpenha:de_ison1@cluster0-faoju.mongodb.net/test?retryWrites=true&w=majority', {
+require('dotenv').config();
+
+mongoose.connect(process.env.REACT_APP_MongoUrl, {
     useNewUrlParser: true,
 });
 
