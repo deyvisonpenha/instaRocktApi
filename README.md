@@ -22,3 +22,28 @@ POST
 ## Entrega 
 
 Após concluir o desafio, adicionei a API para testes no heroku como pode ser acessada no link https://instarocketapi.herokuapp.com/posts
+
+# gerar conexão https
+
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365
+
+## Result api cloudinary
+
+{ public_id: 'ups433i5zy7hlv9n7fey',
+  version: 1567525257,
+  signature: '4c4be7ecbaa342f35df6d821ed88ada5a8631444',
+  width: 500,
+  height: 281,
+  format: 'jpg',
+  resource_type: 'image',
+  created_at: '2019-09-03T15:40:57Z',
+  tags: [],
+  bytes: 21115,
+  type: 'upload',
+  etag: 'e30c30d07f737f79751f99cf9f0fab82',
+  placeholder: false,
+  url:
+   'http://res.cloudinary.com/deyvisonpenha/image/upload/v1567525257/ups433i5zy7hlv9n7fey.jpg',
+  secure_url:
+   'https://res.cloudinary.com/deyvisonpenha/image/upload/v1567525257/ups433i5zy7hlv9n7fey.jpg',
+  original_filename: 'Captura de tela de 2019-07-29 15-05-17' } undefined
