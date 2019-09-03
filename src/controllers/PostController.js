@@ -50,7 +50,7 @@ module.exports = {
                 place,
                 description,
                 hashtags,
-                image: result.url,
+                image: result.secure_url,
             });
 
             req.io.emit('post', post)
